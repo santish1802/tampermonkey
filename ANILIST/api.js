@@ -14,7 +14,7 @@
 
 (function() {
     'use strict';
-
+    //bysnt
     const apiUrl = 'https://webutp.kesug.com/api.php';
     const animeSelector = '.media-card';
     GM_addStyle(`
