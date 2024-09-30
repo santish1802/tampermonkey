@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controlador</title>
+    <style>
+       .cont_controler {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	padding: 5px 10px;
+	background-color: #ccc;
+	border-radius: 5px;
+	display: block;
+}
+
+.controler {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	background-color: white;
+	border: 2px solid black;
+	width: max-content;
+	padding: 10px 20px;
+	border-radius: 10px;
+	display: none;
+}
+.controler p{
+	font-weight: bold;
+}
+
+.controler div:nth-child(1) {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.close-btn {
+	background-color: #ccc;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="cont_controler" id="contControler">Mostrar</div>
+
+    <div class="controler" id="controler">
+        <p>Presiona Ctrl + Num9</p>
+        <div>
+            <label for="input-text">Input Text</label>
+            <input type="checkbox" name="text" id="input-text">
+            
+            <label for="input-marcable">Input Check</label>
+            <input type="checkbox" name="marcable" id="input-marcable">
+        </div>
+        <p>Ocultar</p>
+        <div>
+            <label for="hide-text">Input Text</label>
+            <input type="checkbox" name="hide-text" id="hide-text">
+            
+            <label for="hide-marcable">Input Check</label>
+            <input type="checkbox" name="hide-marcable" id="hide-marcable">
+        </div>
+        
+        <button class="close-btn" onclick="closeControler()">Cerrar</button>
+    </div>
+    
+      
+    <script>
+        const contControler = document.getElementById('contControler');
+        const controler = document.getElementById('controler');
+
+        contControler.addEventListener('click', function() {
+            controler.style.display = 'block';
+            contControler.style.display = 'none';
+        });
+
+        function closeControler() {
+            controler.style.display = 'none';
+            contControler.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+.offset-div {
+    position: absolute;
+    top: -100px;
+    width: 1px;
+    height: 1px;
+}
+.custom-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.custom-container {
+    max-height: 80%;
+    width: 90%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.custom-div {
+    background-color: black;
+    white-space: pre-wrap;
+    padding: 10px 50px;
+    margin: 5px;
+    border: 3px solid #b6b6b6;
+    border-radius: 6px;
+    cursor: pointer;
+    min-width: 97%;
+    max-width: 1000px;
+    max-height: 500px;
+}
+.custom-div-scroll {
+    overflow-y: auto;
+    min-height: 200px;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+/* latex */
+span.katex:active {
+    color: green !important;
+}
+span.katex {
+    color: yellow;
+	cursor: pointer;
+}
+/* HTML */
+.scroll-btn {
+    position: absolute;
+}
+.btn-pers {
+    padding: 1px 15px;
+    background-color: #414141;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    user-select: none;
+}
+.btn-pers:active {
+    background-color: #5c5959;
+}
+.scroll-to-top-btn {
+    bottom: 1px;
+    right: -37px;
+}
+.scroll-to-bottom-btn {
+    top: 1px;
+    right: -37px;
+}
+.scroll-target {
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    z-index: -50;
+}
+.scroll-target-top {
+    top: -100px;
+}
+.scroll-target-bottom {
+    bottom: -52px;
+}
+.flex.flex-grow.flex-col.max-w-full {
+    position: relative;
+    margin: 10px 0;
+}
+@media (min-width: 1280px) {
+    .xl\:max-w-\[48rem\] {
+        max-width: 90% !important;
+    }
+}
+@media (min-width: 768px) {
+    .md\:max-w-3xl {
+        max-width: 90% !important;
+    }
+}
+.gizmo-bot-avatar.flex.h-8.w-8.items-center.justify-center.overflow-hidden.rounded-full {
+    display: none;
+}

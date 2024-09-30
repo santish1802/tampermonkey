@@ -1,0 +1,39 @@
+.cont_controler {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	padding: 5px 10px;
+	background-color: #ccc;
+	border-radius: 5px;
+	display: block;
+}
+
+.controler {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	background-color: white;
+	border: 2px solid black;
+	width: max-content;
+	padding: 10px 20px;
+	border-radius: 10px;
+	display: none;
+}
+.controler p{
+	font-weight: bold;
+}
+
+.controler div:nth-child(1) {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.close-btn {
+	background-color: #ccc;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+}
