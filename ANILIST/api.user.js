@@ -7,8 +7,8 @@
 // @match        https://anilist.co/search/anime?format=TV&sort=POPULARITY_DESC&episodes=0&episodes=30
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
-// @downloadURL https://raw.githubusercontent.com/santish1802/tampermonkey/refs/heads/main/ANILIST/api.js
-// @updateURL https://raw.githubusercontent.com/santish1802/tampermonkey/refs/heads/main/ANILIST/api.js
+// @downloadURL https://raw.githubusercontent.com/santish1802/tampermonkey/refs/heads/main/ANILIST/api.user.js
+// @updateURL https://raw.githubusercontent.com/santish1802/tampermonkey/refs/heads/main/ANILIST/api.user.js
 // ==/UserScript==
 
 (function() {
