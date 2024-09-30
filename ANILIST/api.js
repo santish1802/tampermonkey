@@ -5,6 +5,7 @@
 // @description  Marcar animes que ya han sido subidos en una base de datos compartida, y permitir eliminar animes.
 // @author       Tú
 // @match        https://anilist.co/search/anime?format=TV&sort=POPULARITY_DESC&episodes=0&episodes=30
+// @connect      webutp.kesug.com
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // @downloadURL https://raw.githubusercontent.com/santish1802/tampermonkey/refs/heads/main/ANILIST/api.js
