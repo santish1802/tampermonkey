@@ -98,6 +98,7 @@
         }
     }, 1000);
 })();
+
 (function() {
     'use strict';
     function handleClick(event) {

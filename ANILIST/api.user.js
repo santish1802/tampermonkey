@@ -98,7 +98,7 @@
     function crearBotonEliminar(container, animeNombre, animeElement) {
         const eliminarBtn = document.createElement('button');
         eliminarBtn.textContent = 'Eliminar';
-        eliminarBtn.className = 'eliminar'; // Asignar la clase "eliminar"
+        eliminarBtn.className = 'eliminar';
 
         eliminarBtn.addEventListener('click', () => {
             if (confirm(`¿Estás seguro de que deseas eliminar "${animeNombre}" de la base de datos?`)) {
