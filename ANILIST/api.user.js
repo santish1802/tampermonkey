@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Marcar Animes Subidos (con BD)
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.5
 // @description  Marcar animes que ya han sido subidos en una base de datos compartida, y permitir eliminar animes.
 // @author       Santiago
 // @match        https://anilist.co/search/anime?format=TV&sort=POPULARITY_DESC&episodes=0&episodes=30
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=anilist.co
 // @downloadURL https://raw.githubusercontent.com/santish1802/tampermonkey/refs/heads/main/ANILIST/api.user.js
 // @updateURL https://raw.githubusercontent.com/santish1802/tampermonkey/refs/heads/main/ANILIST/api.user.js
 // @connect      api-production-84ed.up.railway.app
