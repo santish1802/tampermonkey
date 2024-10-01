@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Marcar Animes Subidos (con BD)
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.4
 // @description  Marcar animes que ya han sido subidos en una base de datos compartida, y permitir eliminar animes.
 // @author       Santiago
 // @match        https://anilist.co/search/anime?format=TV&sort=POPULARITY_DESC&episodes=0&episodes=30
 // @downloadURL https://raw.githubusercontent.com/santish1802/tampermonkey/refs/heads/main/ANILIST/api.user.js
 // @updateURL https://raw.githubusercontent.com/santish1802/tampermonkey/refs/heads/main/ANILIST/api.user.js
-// @connect      webutp.kesug.com
+// @connect      api-production-84ed.up.railway.app
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // ==/UserScript==
@@ -15,7 +15,7 @@
 (function() {
     'use strict';
 
-    const apiUrl = 'https://webutp.kesug.com/api.php';
+    const apiUrl = 'https://api-production-84ed.up.railway.app/';
     const animeSelector = '.media-card';
     GM_addStyle(`
         .btn-accion {
