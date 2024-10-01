@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Copy Background Image
+// @name         Modificar web
 // @namespace    http://tampermonkey.net/
-// @version      1.2
-// @description  Copiar el fondo de un elemento con clase banner
+// @version      1.3
+// @description  Modificar web
 // @author       Santiago
 // @match        https://anilist.co/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=anilist.co
